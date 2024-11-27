@@ -54,9 +54,15 @@
     margin: 0;
 }
 
+.body-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
 .left-pinned {
     padding: 0 1rem 0 1rem;
     position: absolute;
+    width: 100%;
 }
 
 .left-pinned p, a {
@@ -68,10 +74,17 @@
     padding-right: 1rem;
 }
 
+.right-pinned h3 {
+    padding-right: 1rem;
+}
+
 .right-pinned {
     display: flex;
-    justify-content: flex-end;
-    position: absolute;
+    justify-content: end;
+    position: sticky;
+    width: 100%;
+    flex-direction: column;
+    
 }
 
 .flex-row {
