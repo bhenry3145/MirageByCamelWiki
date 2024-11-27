@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.left-side-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.logo-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 50px;
+    width: 180px;
+}
+
+.globe {
+    height: 50px;
+    width: 50px;
+}
+
+.next-to-globe {
+    height: 36px;
+    width: 120px;
+}
+
+.header button {
+    border-radius: 0%;
+    border: 1px solid black;
+}
+
+.header input {
+    border-radius: 0%;
+    border: 1px solid black;
+    margin: 0;
+}
