@@ -9,8 +9,9 @@
 }
 
 .left-side-grid {
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .logo-grid {
@@ -30,7 +31,7 @@
     width: 120px;
 }
 
-.header button {
+.btn {
     border-radius: 0%;
     border: 1px solid black;
 }
@@ -39,4 +40,46 @@
     border-radius: 0%;
     border: 1px solid black;
     margin: 0;
+}
+
+.nav-btn {
+    border-radius: 0%;
+    
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin: 0;
+}
+
+.left-pinned {
+    padding: 0 1rem 0 1rem;
+    position: absolute;
+}
+
+.left-pinned p, a {
+    margin: 0;
+    padding-top: 10px;
+}
+
+.left-pinned h3 {
+    padding-right: 1rem;
+}
+
+.right-pinned {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
 }
