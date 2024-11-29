@@ -56,13 +56,14 @@
 
 .body-grid {
     display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    grid-template-columns: 1fr 4fr 1fr;
 }
 
 .left-pinned {
     padding: 0 1rem 0 1rem;
     position: absolute;
     width: 100%;
+    margin-left: 4rem;
 }
 
 .left-pinned p, a {
@@ -84,7 +85,7 @@
     position: sticky;
     width: 100%;
     flex-direction: column;
-    
+    margin-right: 4rem;
 }
 
 .flex-row {
@@ -115,4 +116,59 @@
     border: 1px solid black;
     opacity: 0.1;
     width: 100%;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.center-content {
+    margin: 0 4rem 0 4rem;
+}
+
+.mirage-box {
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black;
+    flex-direction: column;
+}
+
+.box-header {
+    text-align: center;
+    background-color: rgb(124, 124, 217);
+    margin: 5px 10px 5px 10px;
+}
+
+.box-photo {
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+}
+
+.box-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.box-list {
+    text-decoration: none;
+}
+
+.chronology-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.chronology {
+    align-items: center;
+}
+
+.chronology p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.info-padding {
+    padding: 0 1rem 0 1rem;
 }
