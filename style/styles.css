@@ -56,7 +56,7 @@
 
 .body-grid {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr auto 1fr;
 }
 
 .left-pinned {
@@ -95,4 +95,24 @@
 .flex-column {
     display: flex;
     flex-direction: column;
+}
+
+.circle {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-right: 1rem;
+}
+
+.sidebar-break {
+    border: 1px solid black;
+    opacity: 0.1;
+    width: 16rem;
+}
+
+.main-break {
+    border: 1px solid black;
+    opacity: 0.1;
+    width: 100%;
 }
