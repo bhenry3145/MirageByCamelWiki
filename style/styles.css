@@ -227,3 +227,18 @@ p {
     font-size: 20px;
     padding: 0 4rem 0 4rem;
 }
+
+.charts-table {
+    padding: 1rem;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.charts-table th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.charts-table th, td {
+    padding: 1rem;
+}
