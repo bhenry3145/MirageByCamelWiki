@@ -132,6 +132,7 @@
     height: fit-content;
     border: 1px solid black;
     flex-direction: column;
+    margin: 0 1rem 1rem 1rem;
 }
 
 .box-header {
@@ -166,9 +167,63 @@
 .chronology p {
     text-align: center;
     margin: 0;
-    padding: 0;
+    padding: 1rem 1rem 1rem 1rem;
 }
 
 .info-padding {
     padding: 0 1rem 0 1rem;
+}
+
+p {
+    font-size: 20px;
+}
+
+.rating-box {
+    padding: 1rem;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.rating-box th {
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#review {
+    align-items: center;
+}
+
+#no-border {
+    border: none;
+    background-color: #d1dbdf;
+}
+
+.gray-bg {
+    background-color: #eaecf0;
+}
+
+.caption {
+    caption-side: top;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    height: fit-content;
+}
+
+.track-listing {
+    width: 100%;
+}
+
+.track-listing th, td {
+    font-size: 20px;
+    padding: 0 4rem 0 4rem;
 }
